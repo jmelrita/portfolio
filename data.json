@@ -1,0 +1,116 @@
+{
+  "main": {
+    "name": "Jun Mel",
+    "shortDesc": "I focus on developing user-friendly web applications that meet the client's requirements, with attention to detail, scalability, and performance.",
+    "titles": [
+      "Web Developer",
+      "Sap ABAP Developmer"
+    ],
+    "heroImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "techStackImages": [
+      "https://img.icons8.com/color/144/000000/html-5--v1.png"
+    ]
+  },
+  "about": {
+    "aboutImage": "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+    "aboutImageCaption": "< I build stuff 🚀/>",
+    "title": "Web Developer",
+    "about": "I am a Web developer based in Cebu City. I'm an Information Technology undergraduate from University of Cebu, and my journey in web development began during my first year of college. I'm passionate about creating beautiful, functional, and user-friendly websites and applications, and I'm constantly pushing myself to learn and grow as a developer. Love building full-stack clones and side projects.",
+    "callUrl": "",
+    "resumeUrl": ""
+  },
+  "socials": [
+    {
+      "icon": "FaLinkedin",
+      "link": "https://www.linkedin.com/in/jun-mel-rita-b69103174/"
+    },
+    {
+      "icon": "FaGithub",
+      "link": "https://github.com/jmelrita"
+    }
+  ],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "image": "https://img.icons8.com/color/144/null/javascript--v1.png",
+      "category": "Frontend"
+    },
+    {
+      "name": "Java",
+      "image": "https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg",
+      "category": "Backend"
+    },
+    {
+      "name": "PHP",
+      "image": "https://www.php.net/images/logos/new-php-logo.svg",
+      "category": "Backend"
+    },
+    {
+      "name": "Python",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2Fj0zoSD0e4V7siSTI221US9cMrtjc8A2og&s",
+      "category": "Backend"
+    },
+    {
+      "name": "GitHub",
+      "image": "https://img.icons8.com/material-outlined/96/null/github.png",
+      "category": "Tools"
+    },
+    {
+      "name": "C#",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGEF3IDBSE42_pPkvBkXnMb5sfv9va71SASg&s",
+      "category": "Backend"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Project Title",
+      "techstack": "HTML5, CSS3, JavaScript",
+      "category": "MERN Stack",
+      "image": "https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210114225740/10-Best-Web-Development-Project-Ideas-For-Beginners-in-2021.png",
+      "links": {
+        "code": "",
+        "video": "",
+        "visit": ""
+      }
+    }
+  ],
+  "educations": [
+    {
+      "institute": "Cebu Institute Technology - University | UC",
+      "degree": "SHS-STEM",
+      "duration": "2018 - 2016"
+    },
+    {
+      "institute": "University of Cebu | UC",
+      "degree": "BS Information Technology",
+      "duration": "2019 - 2024",
+      "desc": [
+        "Pursuing IT Engineering course from ABC University",
+        "Worked on web application development using HTML, CSS, and JavaScript, designing a database system using SQL",
+        "Familiar with software development methodologies and passionate about a development"
+      ]
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Jae Hub Web Services",
+      "position": "Web Developer",
+      "duration": "JUL 2023 -NOV 2023",
+      "desc": [
+        "Assisted with design and development of project.",
+        "Worked on building the product from scratch and built multiple dashboards.",
+        "Skills: HTML · CSS · JavaScript · TailwindCSS · ReactJS · NodeJS · MySQL · C# · PHP "
+      ]
+    },
+    {
+      "company": "Accenture",
+      "position": "Sap Abap Developer",
+      "duration": "2022 - present",
+      "desc": [
+        "Module training cases study projects by develope, debugging and testing",
+        "Worked on building the product from scratch and built reports.",
+        "Skills: ABAP PROGRAMMING "
+      ]
+    }
+  ]
+}
