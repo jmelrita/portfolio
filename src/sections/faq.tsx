@@ -4,13 +4,13 @@ import { ArrowUpRight } from "@/assets/icons";
 
 const faqItems1 = [
   {
-    question: "Are you available for freelance programming projects?",
+    question: "Are you available for work programming projects?",
     answer:
-      "Yes, I am currently accepting freelance programming projects. I focus on delivering high-quality work and enjoy collaborating with clients to create innovative solutions. If you have a project in mind, feel free to reach out to discuss the details.",
+      "Yes, I am currently accepting work programming projects. I focus on delivering high-quality work and enjoy collaborating with clients to create innovative solutions. If you have a project in mind, feel free to reach out to discuss the details.",
   },
   {
     question:
-      "What do you consider when deciding your rates for freelance projects?",
+      "What do you consider when deciding your rates for working projects?",
     answer:
       "My pricing varies based on the project's complexity and scope. I provide a detailed quote after understanding your specific requirements, ensuring transparency and no hidden fees. Let's discuss your project to determine the best approach.",
   },

@@ -11,6 +11,7 @@ import {
   Contact,
   Footer,
   Faq,
+  Skills,
 } from "@/sections";
 
 export default function Home() {
@@ -23,9 +24,13 @@ export default function Home() {
   return (
     <main>
       <Header activeLink={activeLink} handleLinkClick={handleLinkClick} />
+      
       <section id="home">
+        
         <Hero />
+           <Skills className="rotate-3" animateClassName="animate-move-right" />
       </section>
+   
       <section id="projects">
         <Projects />
       </section>
@@ -34,12 +39,16 @@ export default function Home() {
       <section id="about">
         <About />
       </section>
-      <Tape className="rotate-3" animateClassName="animate-move-right" />
+      <Skills className="rotate-3" animateClassName="animate-move-right" />
       <section id="faq">
         <Faq />
+       
       </section>
+   
       <section id="contact">
+        
         <Contact />
+        
       </section>
       <Footer handleLinkClick={handleLinkClick} />
     </main>

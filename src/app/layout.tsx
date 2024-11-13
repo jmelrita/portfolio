@@ -11,7 +11,7 @@ const calistoga = Calistoga({
 });
 
 export const metadata: Metadata = {
-  title: "Gabriel's Portfolio",
+  title: "Jun Mel Portfolio",
   description:
     "Hi, I’m Jun Mel Rita, a passionate software engineer and web developer with a strong foundation in [list programming languages or technologies you know, e.g., HTML, CSS, JavaScript, React, Node.js]. While I’m early in my professional journey, I’ve dedicated myself to honing my skills through hands-on projects and continuous learning. I’m eager to apply my creativity and problem-solving abilities to build engaging, user-friendly web experiences. On this site, you’ll find a selection of my work, showcasing my commitment to writing clean, efficient code and delivering high-quality solutions. I’m excited to contribute to innovative projects and grow as a developer.",
 };
@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning={true}>
       <head>
-        <link rel="icon" href="/logo.png" type="image/png" />
+        <link rel="icon" href="/jmel.png" type="image/png" />
       </head>
       <body
         className={twMerge(

@@ -3,7 +3,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 import { SectionHeader, Card, CardHeader, ToolboxItems } from "@/components";
 import * as Icon from "@/assets/icons";
-import { Music, Map, MemojiSmile, GabShades, MonaCat } from "@/assets/images";
+import { Music, Map, MemojiSmile, Mel, MonaCat } from "@/assets/images";
 
 const toolBoxItems1 = [
   {
@@ -39,14 +39,6 @@ const toolBoxItems1 = [
     iconType: Icon.Typescript,
   },
   {
-    title: "React Native",
-    iconType: Icon.ReactNative,
-  },
-  {
-    title: "Maya",
-    iconType: Icon.Maya,
-  },
-  {
     title: "Android Studio",
     iconType: Icon.AndroidStudio,
   },
@@ -59,36 +51,8 @@ const toolBoxItems1 = [
     iconType: Icon.Bootstrap,
   },
   {
-    title: "DaisyUI",
-    iconType: Icon.DaisyUi,
-  },
-  {
-    title: "Draw.Io",
-    iconType: Icon.DrawIo,
-  },
-  {
-    title: "Drizzle",
-    iconType: Icon.Drizzle,
-  },
-  {
-    title: "Env",
-    iconType: Icon.Env,
-  },
-  {
     title: "Express",
     iconType: Icon.Express,
-  },
-  {
-    title: "Fastify",
-    iconType: Icon.Fastify,
-  },
-  {
-    title: "Framer",
-    iconType: Icon.Framer,
-  },
-  {
-    title: "GitKraken",
-    iconType: Icon.GitKraken,
   },
   {
     title: "Git",
@@ -103,20 +67,8 @@ const toolBoxItems1 = [
     iconType: Icon.GithubPages,
   },
   {
-    title: "Insomnia",
-    iconType: Icon.Insomnia,
-  },
-  {
-    title: "Jest",
-    iconType: Icon.Jest,
-  },
-  {
     title: "jQuery",
     iconType: Icon.JQuery,
-  },
-  {
-    title: "Jwt",
-    iconType: Icon.Jwt,
   },
   {
     title: "Laravel",
@@ -138,16 +90,8 @@ const toolBoxItems2 = [
     iconType: Icon.Mongoose,
   },
   {
-    title: "Mui",
-    iconType: Icon.Mui,
-  },
-  {
     title: "MySQL",
     iconType: Icon.Mysql,
-  },
-  {
-    title: "Nest",
-    iconType: Icon.Nest,
   },
   {
     title: "Next",
@@ -162,24 +106,12 @@ const toolBoxItems2 = [
     iconType: Icon.Npm,
   },
   {
-    title: "Odoo",
-    iconType: Icon.Odoo,
-  },
-  {
     title: "Php",
     iconType: Icon.Php,
   },
   {
     title: "PostgreSql",
     iconType: Icon.PostgreSql,
-  },
-  {
-    title: "Postman",
-    iconType: Icon.Postman,
-  },
-  {
-    title: "Prettier",
-    iconType: Icon.Prettier,
   },
   {
     title: "Prisma",
@@ -194,24 +126,8 @@ const toolBoxItems2 = [
     iconType: Icon.Sass,
   },
   {
-    title: "Shadcn",
-    iconType: Icon.Shadcn,
-  },
-  {
     title: "Tailwind",
     iconType: Icon.Tailwind,
-  },
-  {
-    title: "Trello",
-    iconType: Icon.Trello,
-  },
-  {
-    title: "Twilio",
-    iconType: Icon.Twilio,
-  },
-  {
-    title: "TypeOrm",
-    iconType: Icon.TypeOrm,
   },
   {
     title: "Vercel",
@@ -241,58 +157,62 @@ const toolBoxItems2 = [
     title: "Vite",
     iconType: Icon.Vite,
   },
-  {
-    title: "Cloudinary",
-    iconType: Icon.Cloudinary,
-  },
-  {
-    title: "WebPack",
-    iconType: Icon.WebPack,
-  },
 ];
 
 const hobbies = [
   {
     title: "Movie",
     emoji: "🎥",
-    left: "5%",
-    top: "5%",
+    left: "3%",
+    top: "3%",
   },
   {
     title: "Photography",
     emoji: "📸",
-    left: "50%",
-    top: "5%",
+    left: "3%",
+    top: "35%",
   },
   {
-    title: "Chess",
-    emoji: "♟️",
-    left: "35%",
-    top: "40%",
+    title: "Guitar",
+    emoji: "🎸",
+    left: "75%",
+    top: "3%",
   },
   {
     title: "Gaming",
     emoji: "🎮",
-    left: "10%",
-    top: "35%",
+    left: "39%",
+    top: "3%",
+  },
+  {
+    title: "Basketball",
+    emoji: "🏀",
+    left: "3%",
+    top: "65%",
   },
   {
     title: "Music",
     emoji: "🎵",
-    left: "70%",
-    top: "45%",
+    left: "75%",
+    top: "65%",
   },
   {
     title: "Fitness",
     emoji: "🏋",
-    left: "5%",
-    top: "65%",
+    left: "40%",
+    top: "35%",
+  },
+  {
+    title: "Badminton",
+    emoji: "🏸",
+    left: "70%",
+    top: "35%",
   },
   {
     title: "Reading",
     emoji: "📚",
-    left: "45%",
-    top: "70%",
+    left: "40%",
+    top: "65%",
   },
 ];
 
@@ -307,20 +227,18 @@ export function About() {
       <div className="container">
         <SectionHeader
           eyebrow="About Me"
-          title="A Glimpse Into My World"
+          title="The Innovative thinker with big dreams"
           description="Learn more about who I am, what I do, and what inspires me."
         />
         <div className="mt-20 grid grid-cols-1 md:grid-cols-2 gap-x-10 items-center xs:mx-2 sm:mx-0">
           <div className="relative">
             <div className="hover:scale-105 duration-500 ease-in-out bg-light-default border-2 border-light-default/60 rounded-lg p-2 transform md:rotate-6 rotate-3">
-              <Image src={GabShades} alt="GabShades" className="rounded-lg" />
+              <Image src={Mel} alt="MelShades" className="rounded-lg" />
             </div>
           </div>
           <div>
             <p className="text-lg pt-10 text-justify sm:text-base">
-              Experienced Full Stack Developer with 2 years of diverse
-              experience in freelancing, bootcamps, internships, and hackathons,
-              including being a competition finalist, specializing in crafting
+              Experienced Software Engineer and Web Developer  with internship specializing in crafting
               seamless user experiences, backend development, mobile app
               creation, and scalable solutions. Committed to continuous learning
               and professional growth, actively engaging in tech communities,
@@ -331,7 +249,7 @@ export function About() {
             <div>
               <motion.div
                 animate={{
-                  x: [0, "75%", 0],
+                  x: [0, "85%", 0],
                 }}
                 transition={{
                   duration: 10,
@@ -354,7 +272,7 @@ export function About() {
         <div className="mt-20 flex flex-col gap-8 xs:mx-2 sm:mx-0">
           <div className="grid grid-cols-1 md:grid-cols-5 gap-8 lg:grid-cols-3">
             <Card className="h-[320px] md:col-span-2 lg:col-span-1">
-              <a href="https://open.spotify.com/playlist/7yau91B5VqQz1dCcGL7WLo?si=14d3f5959d0740cd">
+              <a href="https://movies-self-theta.vercel.app/#/">
                 <CardHeader
                   title="My Music"
                   description="Discover the music that inspires and shapes my journey."
@@ -435,7 +353,7 @@ export function About() {
             </Card>
             <Card className="h-[320px] p-0 relative md:col-span-2 lg:col-span-1 cursor-pointer">
               <a
-                href="https://www.google.com/maps/place/South+Signal+Village,+Taguig,+Metro+Manila/data=!4m2!3m1!1s0x3397cf3866bbb3b7:0x4ca0ad680e4a5b0d?sa=X&ved=1t:242&ictx=111"
+                href="https://www.google.com/maps?q=Singalong+st+malate+manila&FORM=HDRSC6&cp=14.573766~120.993891&lvl=16.6"
                 target="_blank"
                 rel="noopener noreferrer"
               >

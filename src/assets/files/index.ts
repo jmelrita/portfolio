@@ -1,1 +1,1 @@
-export { default as Resume } from "./Gabriel-Mendoza-Resume.pdf";
+export { default as Resume } from "./jmel.pdf";

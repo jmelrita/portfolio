@@ -7,19 +7,19 @@ import { ArrowUpRight, DoubleArrowUp } from "@/assets/icons";
 const footerLinks = [
   {
     title: "Github",
-    href: "https://github.com/GabTheGreat25",
+    href: "https://github.com/jmelrita",
   },
   {
     title: "Linkedin",
-    href: "https://www.linkedin.com/in/gaabsyy25",
+    href: "https://www.linkedin.com/in/jun-mel-rita-b69103174",
   },
   {
     title: "Facebook",
-    href: "https://www.facebook.com/Codeeee_is_Lifeeee",
+    href: "https://www.facebook.com/junmel.me",
   },
   {
     title: "Twitter",
-    href: "https://twitter.com/Gaabsyy25",
+    href: "https://twitter.com/jmelrita",
   },
 ];
 
@@ -43,7 +43,7 @@ export function Footer({
         </div>
         <div className="border-t border-light-default/15 pb-6 md:pb-0 text-sm flex flex-col md:flex-row md:justify-between items-center gap-x-8">
           <div className="inline-flex items-center text-light-default">
-            <Image src="/logo.png" alt="logo" width="100" height="100" />
+            <Image src="/jmel.png" alt="logo" width="100" height="100" />
             <span>&copy; 2024. All rights reserved.</span>
           </div>
           <nav className="flex flex-col md:flex-row items-center gap-8 md:gap-5 lg:gap-4 mb-6 md:mb-0">

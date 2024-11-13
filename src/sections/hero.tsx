@@ -37,7 +37,7 @@ export function Hero() {
 
         const link = document.createElement("a");
         link.href = Resume;
-        link.download = "Gabriel-Mendoza-Resume.pdf";
+        link.download = "jmel.pdf";
         link.click();
         return;
       }
@@ -50,7 +50,7 @@ export function Hero() {
   };
 
   return (
-    <div className="py-100 md:py-48 lg:py-20 z-0 relative overflow-x-clip">
+    <div className="py-100 md:py-48 lg:py-28 z-0 relative overflow-x-clip">
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
         <div
           className="absolute inset-0 opacity-5 -z-30"
@@ -68,7 +68,7 @@ export function Hero() {
           >
             <HeroOrbit size={440} rotation={-14}>
               <a
-                href="https://github.com/GabTheGreat25"
+                href="https://github.com/jmelrita"
                 target="_blank"
                 rel="noreferrer"
                 className="hero__hover"
@@ -88,7 +88,7 @@ export function Hero() {
             </HeroOrbit>
             <HeroOrbit size={520} rotation={-41}>
               <a
-                href="https://codepen.io/gabthegreat25"
+                href="https://codepen.io/jmelrita"
                 target="_blank"
                 rel="noreferrer"
                 className="hero__hover"
@@ -98,7 +98,7 @@ export function Hero() {
             </HeroOrbit>
             <HeroOrbit size={525} rotation={233}>
               <a
-                href="https://medium.com/@gabrielarafolmendoza25"
+                href="https://medium.com/@jmelrita"
                 target="_blank"
                 rel="noreferrer"
                 className="hero__hover"
@@ -118,7 +118,7 @@ export function Hero() {
             </HeroOrbit>
             <HeroOrbit size={535} rotation={120}>
               <a
-                href="https://stackoverflow.com/users/19642389/gabthegreat"
+                href="https://stackoverflow.com/users/19642389/jmelrita"
                 target="_blank"
                 rel="noreferrer"
                 className="hero__hover"
@@ -128,7 +128,7 @@ export function Hero() {
             </HeroOrbit>
             <HeroOrbit size={540} rotation={200}>
               <a
-                href="https://dev.to/gabthegreat25"
+                href="https://dev.to/jmelrita"
                 target="_blank"
                 rel="noreferrer"
                 className="hero__hover"
@@ -168,7 +168,7 @@ export function Hero() {
             </HeroOrbit>
             <HeroOrbit size={590} rotation={50}>
               <a
-                href="https://t.me/Gabz092501"
+                href="https://t.me/jmelrita"
                 target="_blank"
                 rel="noreferrer"
                 className="hero__hover"
@@ -178,7 +178,7 @@ export function Hero() {
             </HeroOrbit>
             <HeroOrbit size={600} rotation={97}>
               <a
-                href="https://www.figma.com/@gabrielmendoza"
+                href="https://www.figma.com/@jmelrita"
                 target="_blank"
                 rel="noreferrer"
                 className="hero__hover"
@@ -188,7 +188,7 @@ export function Hero() {
             </HeroOrbit>
             <HeroOrbit size={605} rotation={263}>
               <a
-                href="https://codesandbox.io/u/gabthegreat25"
+                href="https://codesandbox.io/u/jmelrita"
                 target="_blank"
                 rel="noreferrer"
                 className="hero__hover"
@@ -208,7 +208,7 @@ export function Hero() {
             </HeroOrbit>
             <HeroOrbit size={640} rotation={-5}>
               <a
-                href="https://www.instagram.com/gabthegreat25"
+                href="https://www.instagram.com/jmelrita"
                 target="_blank"
                 rel="noreferrer"
                 className="hero__hover"
@@ -267,6 +267,7 @@ export function Hero() {
               shouldSpin
               spinDuration="6s"
             >
+              
               <Icon.Star className="size-12 text-success-secondary" />
             </HeroOrbit>
             <HeroOrbit
@@ -376,19 +377,17 @@ export function Hero() {
               I&rsquo;m{" "}
               <span className="tracking-widest bg-gradient-to-r from-success-secondary to-info-default text-center text-transparent bg-clip-text animate-shine shadow-lg glow">
                 Jun Mel Rita
-              </span>{" "}
-            </h1>            <h1 className="font-serif text-4xl md:text-10xs text-center mt-1 mx-6 md:mx-0 tracking-wide">
-          
-            </h1>
-
+              </span>
+            </h1>          
+<h1 className="font-serif text-3xl md:text-5xsm text-center md:mx-0"> </h1>
             <p className="mt-4 md:mx-2 mx-4 text-justify text-light-default/80 md:text-sm text-xs">
-            Hi, I’m Jun Mel Rita, a passionate software engineer and web developer with a strong foundation in HTML, CSS, JavaScript, Reactjs, Node.js. C#, Java , PHP, Laravel, ASP .NET Framework, Vue.js, MySQL, Python, and Kotlin 
+            Hi, I’m Jun Mel , a passionate software engineer and web developer with a strong foundation in HTML, CSS, JavaScript, Reactjs, Node.js. C#, Java , PHP, Laravel, .NET Framework, Vue.js, MySQL, Python, and Kotlin 
             . While I’m early in my professional journey, I’ve dedicated myself to honing my skills through hands-on projects and continuous learning. I’m eager to apply my creativity and problem-solving abilities to build engaging, user-friendly web experiences. On this site, you’ll find a selection of my work, showcasing my commitment to writing clean, efficient code and delivering high-quality solutions. I’m excited to contribute to innovative projects and grow as a developer.
             </p>
             <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
               <a
                 href={Resume}
-                download="Gabriel-Mendoza-Resume.pdf"
+                download="jmel.pdf"
                 onClick={handleDownload}
                 className={`inline-flex items-center gap-2 border border-light-default/15 px-6 h-12 rounded-xl z-50 relative overflow-clip`}
               >

@@ -4,7 +4,7 @@ import React from "react";
 import Image from "next/image";
 import { Card } from "@/components";
 import { ArrowUpRight } from "@/assets/icons";
-import { Grain, Gab } from "@/assets/images";
+import { Grain, pic } from "@/assets/images";
 
 export function Contact() {
   const [hoveredButton, setHoveredButton] = React.useState<string | null>(null);
@@ -64,22 +64,22 @@ export function Contact() {
             <Card className="pb-6">
               <div className="flex justify-center mb-6">
                 <Image
-                  src={Gab}
-                  alt="Gabriel Mendoza"
+                  src={pic}
+                  alt="Jun Mel Rita"
                   layout="responsive"
                   className="hover:scale-105 duration-500 ease-in-out object-cover"
                 />
               </div>
               <div className="text-center px-6">
                 <h2 className="uppercase font-semibold tracking-widest bg-gradient-to-r from-success-secondary to-info-default text-center text-transparent bg-clip-text mx-2 md:text-2xl">
-                  Gabriel Mendoza
+                  Jun Mel Rita
                 </h2>
                 <p className="font-serif mt-1 md:text-xl">
-                  Full Stack Developer
+                  Software Engineer & Web Developer
                 </p>
                 <p className="mt-4 md:text-base text-sm text-justify">
                   Let&#39;s make your project a reality together! With extensive
-                  experience in full-stack development and a commitment to
+                  experience in web development & software engineer and a commitment to
                   creating innovative solutions, I deliver results that fit your
                   specific needs. Whether you&#39;re launching a new app or
                   upgrading an existing one, I&#39;m ready to assist you every

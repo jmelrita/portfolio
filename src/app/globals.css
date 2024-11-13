@@ -8,20 +8,6 @@
   * {
     @apply box-border p-0 m-0;
   }
-  .marquee-text {
-    display: inline-block;
-    padding-left: 100%;
-    animation: marquee 10s linear infinite;
-  }
-  
-  @keyframes marquee {
-    0% {
-      transform: translateX(100%);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
-  }
   html,
   body {
     @apply min-w-full min-h-full scrollbar-primary scroll-smooth;
@@ -36,7 +22,36 @@
   a:focus {
     @apply outline-none;
   }
-
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    0% {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+    100% {
+      border-color: transparent;
+    }
+  }
+  
+  .typing-effect {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid black;
+    width: 0;
+    animation: typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite;
+  }
+  
   .nav__link {
     @apply text-light-default text-xs md:text-sm font-semibold md:px-4 px-2.5 py-1.5 rounded-full hover:bg-light-default/10 hover:text-light-default transition duration-300;
   }
