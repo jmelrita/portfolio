@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *::before,
+  *::after,
+  * {
+    @apply box-border p-0 m-0;
+  }
+  .marquee-text {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 10s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  html,
+  body {
+    @apply min-w-full min-h-full scrollbar-primary scroll-smooth;
+  }
+
+  ::selection {
+    @apply bg-transparent;
+  }
+
+  button:focus,
+  input:focus,
+  a:focus {
+    @apply outline-none;
+  }
+
+  .nav__link {
+    @apply text-light-default text-xs md:text-sm font-semibold md:px-4 px-2.5 py-1.5 rounded-full hover:bg-light-default/10 hover:text-light-default transition duration-300;
+  }
+
+  .hero__ring {
+    @apply absolute inset-0 border-2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-success-secondary/5 shadow-[0_0_80px_inset] shadow-success-secondary/5 -z-20;
+  }
+
+  .hero__hover {
+    @apply hover:scale-110 duration-500 ease-in-out;
+  }
+}
+
+@layer utilities {
+  .container {
+    @apply lg:max-w-5xl;
+  }
+
+  .glow {
+    text-shadow: 0 0 5px rgba(110, 231, 183, 0.8);
+  }
+}
